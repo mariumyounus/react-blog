@@ -1,0 +1,80 @@
+.sidebar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: #222;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebarItem > img {
+    margin-top: 15px;
+    max-width: 100%; /* Added to prevent images from overflowing */
+}
+
+.sidebarItem > p {
+    padding: 15px; /* Decreased padding for smaller screens */
+}
+
+.sidebarList {
+    list-style: none;
+    margin-bottom: 20px; /* Decreased margin for smaller screens */
+}
+
+.sidebarListItem {
+    display: inline-block;
+    width: 100%; /* Adjusted width to occupy full width on smaller screens */
+    margin-top: 10px; /* Decreased margin for smaller screens */
+    cursor: pointer;
+}
+
+.sidebarSocial {
+    margin-top: 15px;
+    width: 200px; /* Decreased width for smaller screens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .sidebarTitle {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+    
+    .sidebarItem > p {
+        padding: 10px; /* Further decreased padding for smaller screens */
+    }
+    
+    .sidebarSocial {
+        width: 150px; /* Further decreased width for smaller screens */
+    }
+}

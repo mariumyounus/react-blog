@@ -1,0 +1,85 @@
+.singlePost {
+    flex: 9;
+}
+
+.singlePostImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostTitle {
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin: 10px;
+    font-size: 28px;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+    color: teal;
+}
+
+.singlePostIcon:last-child {
+    color: tomato;
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .singlePostImg {
+        height: 250px; /* Adjusted height for smaller screens */
+    }
+
+    .singlePostTitle {
+        font-size: 24px; /* Decreased font size for smaller screens */
+    }
+
+    .singlePostInfo {
+        font-size: 14px; /* Decreased font size for smaller screens */
+    }
+
+    .singlePostDesc {
+        font-size: 16px; /* Decreased font size for smaller screens */
+        line-height: 22px; /* Decreased line height for smaller screens */
+    }
+
+    .singlePostDesc::first-letter {
+        font-size: 24px; /* Decreased font size for drop cap on smaller screens */
+    }
+}
