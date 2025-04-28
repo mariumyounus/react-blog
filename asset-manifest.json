@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-blog/static/css/main.434d1348.css",
+    "main.js": "/react-blog/static/js/main.83b1b0d1.js",
+    "static/media/marium.png": "/react-blog/static/media/marium.78ecd52e303ac16c7d04.png",
+    "index.html": "/react-blog/index.html",
+    "main.434d1348.css.map": "/react-blog/static/css/main.434d1348.css.map",
+    "main.83b1b0d1.js.map": "/react-blog/static/js/main.83b1b0d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.434d1348.css",
+    "static/js/main.83b1b0d1.js"
+  ]
+}
